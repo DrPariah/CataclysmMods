@@ -1,0 +1,12 @@
+[
+  {
+    "id": "chem_lab",
+    "type": "item_group",
+    "items": [ [ "textbook_hiscifi", 3 ] ]
+  },
+  {
+    "id": "teleport",
+    "type": "item_group",
+    "items": [ [ "textbook_hiscifi", 10 ] ]
+  }
+]

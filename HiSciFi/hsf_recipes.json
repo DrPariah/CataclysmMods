@@ -1,0 +1,109 @@
+[
+  {
+    "result": "bagofholding",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "time": 240000,
+    "book_learn": [ [ "textbook_hiscifi", 9 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 40 ] ],
+    "components": [
+      [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ] ],
+      [ [ "plastic_chunk", 15 ] ],
+      [ [ "material_aluminium_ingot", 3 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "adv_UPS_off", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "circuit", 3 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "teleporter", 2 ] ]
+    ]
+  },
+  {
+    "result": "vacuum_turbine",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "time": 240000,
+    "book_learn": [ [ "textbook_hiscifi", 9 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 40 ] ],
+    "components": [
+      [ [ "motor_enhanced", 1 ] ],
+      [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ] ],
+      [ [ "pipe", 15 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "steel_plate", 2 ] ],
+      [ [ "frame", 1 ] ],
+      [ [ "teleporter", 1 ] ]
+    ]
+  },
+  {
+    "result": "meinterface",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 10,
+    "time": 120000,
+    "book_learn": [ [ "textbook_hiscifi", 9 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 30 ] ],
+    "components": [
+      [ [ "material_aluminium_ingot", 15 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "receiver", 5 ] ],
+      [ [ "amplifier", 10 ] ],
+      [ [ "circuit", 10 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "teleporter", 1 ] ],
+      [ [ "motor_small", 2 ] ]
+    ]
+  },
+  {
+    "result": "meinterface",
+    "type": "recipe",
+    "id_suffix": "from-cold",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 7,
+    "time": 30000,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 }, { "id": "SAW_M", "level": 2 } ],
+    "components": [ [ [ "meinterface_cold", 1 ], [ "meinterface_cryo", 1 ] ], [ [ "power_supply", 5 ] ] ]
+  },
+  {
+    "result": "meinterface_cold",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 7,
+    "time": 30000,
+    "book_learn": [ [ "textbook_hiscifi", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "using": [ [ "soldering_standard", 30 ] ],
+    "components": [ [ [ "meinterface", 1 ], [ "meinterface_cryo", 1 ] ], [ [ "amplifier", 3 ] ] ]
+  },
+  {
+    "result": "meinterface_cryo",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 7,
+    "time": 30000,
+    "book_learn": [ [ "textbook_hiscifi", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "using": [ [ "soldering_standard", 30 ] ],
+    "components": [ [ [ "meinterface", 1 ], [ "meinterface_cold", 1 ] ], [ [ "amplifier", 3 ] ] ]
+  }
+]

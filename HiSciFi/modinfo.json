@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "hiscifi",
+    "name": "Hi Sci-Fi",
+    "authors": [ "Xhuis" ],
+    "maintainers": [ "Xhuis" ],
+    "description": "Adds high-tech, science-fantasy vehicle parts and items.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
