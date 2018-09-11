@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "macgyver",
+    "name": "Disciples of MacGyver",
+    "authors": [ "Xhuis" ],
+    "maintainers": [ "Xhuis" ],
+    "description": "Implements many new makeshift supplements for items.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

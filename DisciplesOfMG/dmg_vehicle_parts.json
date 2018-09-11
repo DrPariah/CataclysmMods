@@ -1,0 +1,15 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "macrofridge",
+    "copy-from": "minifridge",
+    "name": "macrofridge",
+    "color": "blue",
+    "broken_color": "blue",
+    "durability": 150,
+    "description": "A small fridge, enlarged with metal sheets.  When turned on, it will cool the food inside, extending the time until the food spoils.",
+    "epower": -299,
+    "size": 520,
+    "item": "macrofridge"
+  }
+]

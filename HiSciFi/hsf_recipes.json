@@ -8,7 +8,7 @@
     "difficulty": 10,
     "time": 240000,
     "book_learn": [ [ "textbook_hiscifi", 9 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 40 ] ],
     "components": [
       [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ] ],
@@ -32,7 +32,7 @@
     "difficulty": 10,
     "time": 240000,
     "book_learn": [ [ "textbook_hiscifi", 9 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 40 ] ],
     "components": [
       [ [ "motor_enhanced", 1 ] ],
@@ -54,7 +54,7 @@
     "difficulty": 10,
     "time": 120000,
     "book_learn": [ [ "textbook_hiscifi", 9 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 30 ], [ "welding_standard", 30 ] ],
     "components": [
       [ [ "material_aluminium_ingot", 15 ] ],
@@ -77,7 +77,7 @@
     "difficulty": 7,
     "time": 30000,
     "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 }, { "id": "SAW_M", "level": 2 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 }, { "id": "SAW_M", "level": 2 } ],
     "components": [ [ [ "meinterface_cold", 1 ], [ "meinterface_cryo", 1 ] ], [ [ "power_supply", 5 ] ] ]
   },
   {
@@ -89,7 +89,7 @@
     "difficulty": 7,
     "time": 30000,
     "book_learn": [ [ "textbook_hiscifi", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 30 ] ],
     "components": [ [ [ "meinterface", 1 ], [ "meinterface_cryo", 1 ] ], [ [ "amplifier", 3 ] ] ]
   },
@@ -102,7 +102,7 @@
     "difficulty": 7,
     "time": 30000,
     "book_learn": [ [ "textbook_hiscifi", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 3 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SCREW", "level": 1 } ],
     "using": [ [ "soldering_standard", 30 ] ],
     "components": [ [ [ "meinterface", 1 ], [ "meinterface_cold", 1 ] ], [ [ "amplifier", 3 ] ] ]
   }

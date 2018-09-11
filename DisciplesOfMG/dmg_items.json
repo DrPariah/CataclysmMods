@@ -1,0 +1,50 @@
+[
+  {
+    "type": "TOOL",
+    "id": "chain_wrench",
+    "name": "chain wrench",
+    "name_plural": "chain wrenches",
+    "description": "A handmade chain wrench crafted from scraps, held together with an adjustable screw.  A leather grip prevents it from sliding.  Can be used to turn most bolts, but smaller sizes will need a proper tool.",
+    "volume": 1,
+    "weight": 1360,
+    "price": 1200,
+    "to_hit": 1,
+    "bashing": 4,
+    "symbol": ";",
+    "color": "gray",
+    "qualities": [ [ "WRENCH", 2 ] ],
+    "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "mini_hacksaw",
+    "name": "mini hacksaw",
+    "name_plural": "mini hacksaws",
+    "description": "It's a little hand-sized hacksaw made from a wooden frame and a sturdy metal blade with notches gouged out, held together with superglue.  Cute!  That said, it's quite imprecise - for most tasks, you'll need a proper tool.",
+    "volume": 1,
+    "weight": 226,
+    "symbol": ";",
+    "color": "brown",
+    "material": [ "wood", "steel" ],
+    "qualities": [ [ "SAW_M", 2 ] ],
+    "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "type": "CONTAINER",
+    "id": "can_drink_watertight",
+    "copy-from": "can_drink_unsealed",
+    "name": "foiled aluminum can",
+    "name_plural": "foiled aluminum cans",
+    "description": "An aluminum can, with a makeshift lid of equally-aluminum foil.  It's watertight, as long as you're gentle with it.",
+    "seals": true
+  },
+  {
+    "type": "GENERIC",
+    "id": "macrofridge",
+    "copy-from": "minifridge",
+    "name": "macrofridge",
+    "description": "A vehicle-mounted minifridge that's been enlarged with several metal sheets.  It takes more power to keep things cold, but it holds more.",
+    "weight": 40823,
+    "volume": 30
+  }
+]
