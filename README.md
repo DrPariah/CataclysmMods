@@ -8,3 +8,7 @@ Mod list:
 Includes items with largely science-fantasy elements that wouldn't fit in normal DDA, including a backpack with large volume with little encumberance, and an engine that runs forever.
 
 Find the recipes in lab journal-Higgs, which spawns in labs.
+
+## Disciples of MacGyver
+
+Adds a few new makeshift items and parts, such as mini-hacksaws and chain wrenches.
