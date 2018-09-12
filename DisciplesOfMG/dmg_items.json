@@ -30,12 +30,47 @@
     "flags": [ "BELT_CLIP" ]
   },
   {
+    "type": "TOOL",
+    "id": "nail_tenderizer",
+    "name": "nail tenderizer",
+    "name_plural": "nail tenderizer",
+    "description": "This mallet has been carefully carved from sturdy wood and has strong metal caps.  It serves as both a decent weapon and a passable hammer for most common tasks.",
+    "weight": 600,
+    "volume": 3,
+    "price": 700,
+    "to_hit": 2,
+    "bashing": 11,
+    "symbol": ";",
+    "color": "brown",
+    "material": [ "wood", "steel" ],
+    "qualities": [ [ "HAMMER", 3 ] ],
+    "flags": [ "BELT_CLIP" ],
+    "//": "No hammer use action because it's a mallet and can't pull out nails"
+  },
+  {
+    "type": "TOOL",
+    "id": "handymans_tackle",
+    "name": "handyman's tackle",
+    "name_plural": "handyman's tackles",
+    "description": "A makeshift toolbox filled with equally makeshift tools.  Fitting!",
+    "weight": 3522,
+    "volume": 8,
+    "price": 5000,
+    "to_hit": -2,
+    "bashing": 7,
+    "symbol": ";",
+    "color": "white",
+    "material": "steel",
+    "qualities": [ [ "CUT", 1 ], [ "PRY", 1 ], [ "WRENCH", 2 ], [ "SAW_M", 2 ], [ "SCREW", 1 ], [ "HAMMER", 3 ], [ "BUTCHER", 11 ] ],
+    "use_action": "CROWBAR"
+  },
+  {
     "type": "CONTAINER",
     "id": "can_drink_watertight",
     "copy-from": "can_drink_unsealed",
     "name": "foiled aluminum can",
     "name_plural": "foiled aluminum cans",
-    "description": "An aluminum can, with a makeshift lid of equally-aluminum foil.  It's watertight, as long as you're gentle with it.",
+    "description": "A soda can can with a makeshift lid of aluminum foil.  It's watertight, as long as you're gentle with it.",
     "seals": true
   },
   {
@@ -46,5 +81,21 @@
     "description": "A vehicle-mounted minifridge that's been enlarged with several metal sheets.  It takes more power to keep things cold, but it holds more.",
     "weight": 40823,
     "volume": 30
+  },
+  {
+    "type": "GENERIC",
+    "id": "metalrig",
+    "copy-from": "vehicle_rig",
+    "name": "MetalMaster forge buddy",
+    "name_plural": "MetalMaster forge buddies",
+    "description": "From the makers of the best-selling* FOODCO kitchen buddy comes the MetalMaster forge buddy, for all your metalworking and welding needs!  It's just as clunky and awkward as the thing it's spinning off, and still requires a vehicle battery to function."
+  },
+  {
+    "type": "GENERIC",
+    "id": "cookingrig",
+    "copy-from": "vehicle_rig",
+    "name": "cooking rig",
+    "name_plural": "cooking rigs",
+    "description": "Skillet, pot, hotplate, and chemistry set; everything you need to cook breakfast and amphetamines alike.  Includes proper fume vents and a separator, so you don't contaminate your food with toxic chemicals."
   }
 ]

@@ -6,10 +6,61 @@
     "name": "macrofridge",
     "color": "blue",
     "broken_color": "blue",
+    "looks_like": "minifridge",
     "durability": 150,
     "description": "A small fridge, enlarged with metal sheets.  When turned on, it will cool the food inside, extending the time until the food spoils.",
-    "epower": -299,
+    "epower": -50,
     "size": 520,
     "item": "macrofridge"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "metalrig",
+    "name": "MetalMaster forge buddy",
+    "symbol": "&",
+    "color": "yellow",
+    "broken_symbol": "x",
+    "broken_color": "yellow",
+    "looks_like": "welding_rig",
+    "damage_modifier": 10,
+    "durability": 125,
+    "description": "A welding rig combined with a forge rig mounted in a vehicle.  'e'xamine the forge rig to utilize its welder or soldering iron; you'll still need glare protection.",
+    "size": 400,
+    "item": "metalrig",
+    "difficulty": 3,
+    "location": "center",
+    "flags": [ "CARGO", "OBSTACLE", "WELDRIG", "FORGE", "COVERED", "TOOL_WRENCH" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 6 ] },
+      { "item": "steel_chunk", "count": [ 3, 6 ] },
+      { "item": "scrap", "count": [ 3, 6 ] },
+      { "item": "welder", "charges": 0, "prob": 50 }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "cookingrig",
+    "name": "cooking rig",
+    "symbol": "&",
+    "color": "blue",
+    "broken_symbol": "x",
+    "broken_color": "blue",
+    "looks_like": "kitchen_unit",
+    "damage_modifier": 10,
+    "durability": 125,
+    "description": "An all-in-one kitchen unit and chemistry lab.  'e'xamine it to use its hotplate to heat up food or drinks.",
+    "size": 400,
+    "item": "cookingrig",
+    "difficulty": 3,
+    "location": "center",
+    "flags": [ "CARGO", "OBSTACLE", "KITCHEN", "CHEMLAB", "FAUCET", "COVERED", "TOOL_WRENCH" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 6, 9 ] },
+      { "item": "steel_chunk", "count": [ 6, 9 ] },
+      { "item": "scrap", "count": [ 6, 9 ] },
+      { "item": "pot", "prob": 50 },
+      { "item": "chemistry_set", "charges": 0, "prob": 50 },
+      { "item": "hotplate", "charges": 0, "prob": 50 }
+    ]
   }
 ]
