@@ -62,5 +62,21 @@
       { "item": "chemistry_set", "charges": 0, "prob": 50 },
       { "item": "hotplate", "charges": 0, "prob": 50 }
     ]
+  },
+  {
+    "id": "laser_cannon",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": "mounted laser cannon",
+    "item": "laser_cannon",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "looks_like": "laser_rifle",
+    "difficulty": 5,
+    "breaks_into": [ { "item": "laser_cannon", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 4 ] ], "time": 10000 },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
   }
 ]
