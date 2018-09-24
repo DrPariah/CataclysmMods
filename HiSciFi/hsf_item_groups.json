@@ -8,5 +8,20 @@
     "id": "teleport",
     "type": "item_group",
     "items": [ [ "textbook_hiscifi", 10 ] ]
+  },
+  {
+    "id": "science",
+    "type": "item_group",
+    "items": [ [ "textbook_hiscifi", 1 ] ]
+  },
+  {
+    "id": "goo",
+    "type": "item_group",
+    "items": [ [ "textbook_hiscifi", 1 ] ]
+  },
+  {
+    "id": "dissection",
+    "type": "item_group",
+    "items": [ [ "textbook_hiscifi", 2 ] ]
   }
 ]

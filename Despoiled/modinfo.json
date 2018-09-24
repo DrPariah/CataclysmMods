@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "despoiled",
+    "name": "Despoiled",
+    "authors": [ "Xhuis" ],
+    "maintainers": [ "Xhuis" ],
+    "description": "Removes spoilage timers for many items with ones so long they'll never matter.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

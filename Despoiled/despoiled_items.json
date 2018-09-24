@@ -1,0 +1,263 @@
+[
+  {
+    "id": "dry_fish",
+    "copy-from": "dry_fish",
+    "type": "COMESTIBLE",
+    "name": "dehydrated fish",
+    "spoils_in": 0
+  },
+  {
+    "id": "lutefisk",
+    "copy-from": "lutefisk",
+    "type": "COMESTIBLE",
+    "name": "lutefisk",
+    "spoils_in": 0
+  },
+  {
+    "id": "fruit_leather",
+    "copy-from": "fruit_leather",
+    "type": "COMESTIBLE",
+    "name": "fruit leather",
+    "spoils_in": 0
+  },
+  {
+    "id": "chocolate",
+    "copy-from": "chocolate",
+    "type": "COMESTIBLE",
+    "name": "chocolate bar",
+    "spoils_in": 0
+  },
+  {
+    "id": "fruit_leather",
+    "copy-from": "fruit_leather",
+    "type": "COMESTIBLE",
+    "name": "fruit leather",
+    "spoils_in": 0
+  },
+  {
+    "id": "pemmican",
+    "copy-from": "pemmican",
+    "type": "COMESTIBLE",
+    "name": "pemmican",
+    "spoils_in": 0
+  },
+  {
+    "id": "candy",
+    "copy-from": "candy",
+    "type": "COMESTIBLE",
+    "name": "peanut butter candy",
+    "name_plural": "peanut butter candies",
+    "spoils_in": 0
+  },
+  {
+    "id": "candy2",
+    "copy-from": "candy2",
+    "type": "COMESTIBLE",
+    "name": "chocolate candy",
+    "name_plural": "chocolate candies",
+    "spoils_in": 0
+  },
+  {
+    "id": "candy3",
+    "copy-from": "candy3",
+    "type": "COMESTIBLE",
+    "name": "chewy candy",
+    "name_plural": "chewy candies",
+    "spoils_in": 0
+  },
+  {
+    "id": "powder_candy",
+    "copy-from": "powder_candy",
+    "type": "COMESTIBLE",
+    "name": "powder candy sticks",
+    "name_plural": "powder candy sticks",
+    "spoils_in": 0
+  },
+  {
+    "id": "maple_candy",
+    "copy-from": "maple_candy",
+    "type": "COMESTIBLE",
+    "name": "maple syrup candy",
+    "name_plural": "maple syrup candies",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_mushroom",
+    "copy-from": "dry_mushroom",
+    "type": "COMESTIBLE",
+    "name": "dried mushroom",
+    "spoils_in": 0
+  },
+  {
+    "id": "pine_nuts",
+    "copy-from": "pine_nuts",
+    "type": "COMESTIBLE",
+    "name": "pine nuts",
+    "name_plural": "pine nuts",
+    "spoils_in": 0
+  },
+  {
+    "id": "hickory_nut_unshelled",
+    "copy-from": "hickory_nut_unshelled",
+    "type": "COMESTIBLE",
+    "name": "handful of shelled hickory nuts",
+    "name_plural": "handfuls of shelled hickory nuts",
+    "spoils_in": 0
+  },
+  {
+    "id": "hickory_nut_roasted",
+    "copy-from": "hickory_nut_roasted",
+    "type": "COMESTIBLE",
+    "name": "handful of roasted hickory nuts",
+    "name_plural": "handfuls of roasted hickory nuts",
+    "spoils_in": 0
+  },
+  {
+    "id": "hickory_nut_roasted",
+    "copy-from": "hickory_nut_roasted",
+    "type": "COMESTIBLE",
+    "name": "handful of roasted hickory nuts",
+    "spoils_in": 0
+  },
+  {
+    "id": "spaghetti_raw",
+    "copy-from": "spaghetti_raw",
+    "type": "COMESTIBLE",
+    "name": "raw spaghetti",
+    "name_plural": "raw spaghetti",
+    "spoils_in": 0
+  },
+  {
+    "id": "lasagne_raw",
+    "copy-from": "lasagne_raw",
+    "type": "COMESTIBLE",
+    "name": "raw lasagne",
+    "name_plural": "raw lasagne",
+    "spoils_in": 0
+  },
+  {
+    "id": "macaroni_raw",
+    "copy-from": "macaroni_raw",
+    "type": "COMESTIBLE",
+    "name": "raw macaroni",
+    "name_plural": "raw macaroni",
+    "spoils_in": 0
+  },
+  {
+    "id": "noodles_fast",
+    "copy-from": "noodles_fast",
+    "type": "COMESTIBLE",
+    "name": "fast noodles",
+    "name_plural": "fast noodles",
+    "spoils_in": 0
+  },
+  {
+    "id": "flour",
+    "copy-from": "flour",
+    "type": "COMESTIBLE",
+    "name": "flour",
+    "name_plural": "flour",
+    "spoils_in": 0
+  },
+  {
+    "id": "cornmeal",
+    "copy-from": "cornmeal",
+    "type": "COMESTIBLE",
+    "name": "cornmeal",
+    "spoils_in": 0
+  },
+  {
+    "id": "oatmeal",
+    "copy-from": "oatmeal",
+    "type": "COMESTIBLE",
+    "name": "oatmeal",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_beans",
+    "copy-from": "dry_beans",
+    "type": "COMESTIBLE",
+    "name": "dried beans",
+    "name_plural": "dried beans",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_rice",
+    "copy-from": "dry_rice",
+    "type": "COMESTIBLE",
+    "name": "dried rice",
+    "name_plural": "dried rice",
+    "spoils_in": 0
+  },
+  {
+    "id": "acorns",
+    "copy-from": "acorns",
+    "type": "COMESTIBLE",
+    "name": "handful of acorns",
+    "name_plural": "handfuls of acorns",
+    "spoils_in": 0
+  },
+  {
+    "id": "acorns_cooked",
+    "copy-from": "acorns_cooked",
+    "type": "COMESTIBLE",
+    "name": "cooked acorn meal",
+    "spoils_in": 0
+  },
+  {
+    "id": "hardtack",
+    "copy-from": "hardtack",
+    "type": "COMESTIBLE",
+    "name": "hardtack",
+    "spoils_in": 0
+  },
+  {
+    "id": "oatmeal",
+    "copy-from": "oatmeal",
+    "type": "COMESTIBLE",
+    "name": "oatmeal",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_meat",
+    "copy-from": "dry_meat",
+    "type": "COMESTIBLE",
+    "name": "dehydrated meat",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_hflesh",
+    "copy-from": "dry_hflesh",
+    "type": "COMESTIBLE",
+    "name": "dehydrated human flesh",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_veggy",
+    "copy-from": "dry_veggy",
+    "type": "COMESTIBLE",
+    "name": "dehydrated vegetable",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_fruit",
+    "copy-from": "dry_fruit",
+    "type": "COMESTIBLE",
+    "name": "dehydrated fruit",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_meat_tainted",
+    "copy-from": "dry_meat_tainted",
+    "type": "COMESTIBLE",
+    "name": "dehydrated tainted meat",
+    "spoils_in": 0
+  },
+  {
+    "id": "dry_veggy_tainted",
+    "copy-from": "dry_veggy_tainted",
+    "type": "COMESTIBLE",
+    "name": "dehydrated tainted vegetable",
+    "spoils_in": 0
+  }
+]

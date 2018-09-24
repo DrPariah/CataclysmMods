@@ -19,7 +19,6 @@
     "type": "TOOL",
     "id": "mini_hacksaw",
     "name": "mini hacksaw",
-    "name_plural": "mini hacksaws",
     "description": "It's a little hand-sized hacksaw made from a wooden frame and a sturdy metal blade with notches gouged out, held together with superglue.  Cute!  That said, it's quite imprecise - for most tasks, you'll need a proper tool.",
     "volume": 1,
     "weight": 226,
@@ -32,8 +31,7 @@
   {
     "type": "TOOL",
     "id": "nail_tenderizer",
-    "name": "nail tenderizer",
-    "name_plural": "nail tenderizer",
+    "name": "homemade mallet",
     "description": "This mallet has been carefully carved from sturdy wood and has strong metal caps.  It serves as both a decent weapon and a passable hammer for most common tasks.",
     "weight": 600,
     "volume": 3,
@@ -51,7 +49,6 @@
     "type": "TOOL",
     "id": "handymans_tackle",
     "name": "handyman's tackle",
-    "name_plural": "handyman's tackles",
     "description": "A makeshift toolbox filled with equally makeshift tools.  Fitting!",
     "weight": 3522,
     "volume": 8,
@@ -69,7 +66,6 @@
     "id": "can_drink_watertight",
     "copy-from": "can_drink_unsealed",
     "name": "foiled aluminum can",
-    "name_plural": "foiled aluminum cans",
     "description": "A soda can can with a makeshift lid of aluminum foil.  It's watertight, as long as you're gentle with it.",
     "seals": true
   },
@@ -96,6 +92,20 @@
     "copy-from": "vehicle_rig",
     "name": "cooking rig",
     "name_plural": "cooking rigs",
-    "description": "Skillet, pot, hotplate, and chemistry set; everything you need to cook breakfast and amphetamines alike.  Includes proper fume vents and a separator, so you don't contaminate your food with toxic chemicals."
+    "description": "Skillet, pot, hotplate, and chemistry set; everything you need to cook hotcakes and heroin alike.  Includes proper fume vents and a separator, so you don't contaminate your food with toxic chemicals."
+  },
+  {
+    "type": "GENERIC",
+    "id": "reinforced_mirror",
+    "symbol": "o",
+    "color": "cyan",
+    "name": "reinforced hand mirror",
+    "description": "A small hand mirror, reinforced with a steel mesh to protect it from harm.",
+    "price": 20000,
+    "material": [ "glass", "steel" ],
+    "weight": 400,
+    "volume": 4,
+    "bashing": 4,
+    "to_hit": -3
   }
 ]
