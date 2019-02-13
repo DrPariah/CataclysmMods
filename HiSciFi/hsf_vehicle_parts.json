@@ -56,7 +56,7 @@
       { "item": "steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] },
-	  [ "item": "teleporter", "prob": 50 }
+	  { "item": "teleporter", "prob": 50 }
     ]
   }
 ]
