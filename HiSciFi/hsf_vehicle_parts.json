@@ -4,9 +4,9 @@
     "id": "meinterface",
     "name": "m/e interface",
     "symbol": "6",
-    "color": "blue",
+    "color": "green",
     "broken_symbol": "#",
-    "broken_color": "blue",
+    "broken_color": "gray",
     "durability": 300,
     "description": "A two-way interface between an extradimensional space, allowing you to store everything you could dream of.",
     "epower": 0,
@@ -19,7 +19,7 @@
       { "item": "steel_lump", "count": [ 8, 13 ] },
       { "item": "steel_chunk", "count": [ 8, 13 ] },
       { "item": "scrap", "count": [ 8, 13 ] },
-      { "item": "hose", "prob": 50 }
+      { "item": "teleporter", "prob": 50 }
     ]
   },
   {
@@ -47,7 +47,7 @@
     "name": "vacuum turbine",
     "item": "vacuum_turbine",
     "color": "gray",
-    "difficulty": 7,
+    "difficulty": 6,
     "durability": 1000,
     "power": 10000,
     "epower": 0,
@@ -55,7 +55,8 @@
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
-      { "item": "cable", "charges": [ 10, 15 ] }
+      { "item": "cable", "charges": [ 10, 15 ] },
+	  [ "item": "teleporter", "prob": 50 }
     ]
   }
 ]

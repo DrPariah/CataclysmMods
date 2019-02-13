@@ -1,0 +1,16 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "hsf_part_tiles.png",
+        "tiles": [
+          { "id": "meinterface", "fg": 0, "bg": 0 },
+          { "id": "meinterface_cold", "fg": 1, "bg": 0 },
+          { "id": "meinterface_cryo", "fg": 2, "bg": 0 }
+        ]
+      }
+    ]
+  }
+]

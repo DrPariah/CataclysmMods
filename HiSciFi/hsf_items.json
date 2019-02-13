@@ -10,6 +10,7 @@
     "price": 1000000,
     "bashing": 8,
     "material": [ "paper" ],
+	"looks_like": "textbook_computer", 
     "symbol": "?",
     "color": "light_green",
     "skill": "electronics",
@@ -28,6 +29,7 @@
     "volume": 12,
     "price": 10000000,
     "material": [ "steel", "aluminum" ],
+	"looks_like": "portal", 
     "symbol": "[",
     "color": "cyan",
     "covers": [ "TORSO" ],
@@ -36,13 +38,13 @@
     "storage": 200,
     "warmth": 5,
     "material_thickness": 2,
-    "flags": [ "BELTED", "STURDY", "NO_REPAIR", "LEAK_DAM" ]
+    "flags": [ "BELTED", "STURDY", "LEAK_DAM" ]
   },
   {
     "type": "GENERIC",
     "id": "meinterface",
     "name": "m/e interface",
-    "description": "This small, innocuous all-in-one computer terminal contains esoteric hardware and programming that allows it to maintain a localized connection to an extraplanar space using teleportation technology developed before the Cataclysm.",
+    "description": "This small vehicle-mounted computer terminal uses experimental technology to maintain a link to a pocket dimension.  Even though the uses of such a thing are innumerable, the technology was in its infancy, according to the book you got it from, and the Cataclysm ensured that it never developed beyond its current state.  Even so...",
     "weight": 13607,
     "to_hit": -8,
     "color": "blue",
@@ -58,7 +60,6 @@
     "id": "meinterface_cold",
     "copy-from": "meinterface",
     "name": "cryotic m/e interface",
-    "description": "This small, innocuous all-in-one computer terminal contains esoteric hardware and programming that allows it to maintain a localized connection to a chilly extraplanar space using teleportation technology developed before the Cataclysm.",
     "color": "light_blue"
   },
   {
@@ -66,19 +67,19 @@
     "id": "meinterface_cryo",
     "copy-from": "meinterface",
     "name": "cryogenic m/e interface",
-    "description": "This small, innocuous all-in-one computer terminal contains esoteric hardware and programming that allows it to maintain a localized connection to a freezing extraplanar space using teleportation technology developed before the Cataclysm.",
     "color": "cyan"
   },
   {
     "type": "GENERIC",
     "id": "vacuum_turbine",
     "name": "vacuum turbine",
-    "description": "A modest-sized, sleek steel surface conceals experimental technology capable of harnessing the power of the subprime.  Though the Cataclysm came before its staggering output of clean energy could be harnessed in society, it still has its uses...",
+    "description": "A sleek steel surface conceals experimental technology capable of harnessing the power of the subprime.  Its energy output is staggering, and it has no clear exhaust, but something about it caused its pioneers to ensure it never saw the light of day.  Whatever that reason is, who cares now?",
     "weight": 60000,
     "to_hit": -3,
     "color": "gray",
     "symbol": ":",
     "material": "steel",
+	"looks_like": "motor_enhanced",
     "volume": 20,
     "bashing": 9,
     "category": "veh_parts",
