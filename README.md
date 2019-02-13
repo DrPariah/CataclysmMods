@@ -3,6 +3,10 @@ A personal repository of mods for Cataclysm: Dark Days Ahead so I can hold onto 
 
 Mod list:
 
+## Aftershock
+
+Aftershock is my personal core content pack in the vein of Bright Nights. Right now, it does little, serving mainly to restore recipes that were realism'd out by Kevin.
+
 ## Despoiled
 
 Makes a lot of food with spoilage timers that won't eveer matter to the average survivor (300 days? really?) "immortal" like before, such as dehydrated food and candy.
