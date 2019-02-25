@@ -5,7 +5,9 @@ Mod list:
 
 ## Aftershock
 
-Aftershock is my personal core content pack in the vein of Bright Nights. Right now, it does little, serving mainly to restore recipes that were realism'd out by Kevin.
+~~Aftershock is my personal core content pack in the vein of Bright Nights. Right now, it does little, serving mainly to restore recipes that were realism'd out by Kevin.~~
+
+Due to personal reasons, I've passed on Aftershock to another, more capable author.
 
 ## Despoiled
 
